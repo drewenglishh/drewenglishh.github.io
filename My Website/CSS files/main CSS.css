@@ -1,0 +1,259 @@
+#menu{
+    background-color: darkgreen;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    width: 100%;
+}
+
+.menu{
+    display: inline-block;
+    padding: 20px;
+}
+
+a{
+    color:azure;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link{
+    font-size: larger;
+}
+
+body{
+    background-color: plum;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Intro{
+    background-color: rgb(7, 44, 114);
+    color: azure;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    width: 750px;
+}
+
+#ProPic{
+    float: right;
+    margin: 10px;
+    height: 500px;
+    width: auto;
+    border-radius: 20%;
+}
+
+.home{
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#home1{
+    background-color: cornflowerblue;
+}
+
+#home2{
+    background-color: darksalmon;
+}
+
+#home3{
+    background-color: cornflowerblue;
+}
+
+#home4{
+    background-color: darksalmon;
+}
+
+#AboutPic{
+    float: left;
+    margin: 10 px;
+    padding: 20px;
+    padding-left: 0px;
+    padding-top: 40px;
+    height: 420px;
+    width: auto;
+}
+
+.heading{
+    color: azure;
+    font-size: 60px;
+    background-color: rgb(7, 44, 114);
+}
+
+#bio{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.aboutlist{
+    list-style-type: none;
+    float: left;
+    width: 30%;
+    padding: 0 20px;
+}
+
+.lists::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.lists{
+    background-color: cornflowerblue;
+}
+
+.abouthead{
+    color: rgb(7, 44, 114);
+    font-size: 40px;
+}
+
+.listitems{
+    color: azure ;
+    font-size: 25px;
+}
+  
+#resume{
+    background-color: darksalmon;
+    padding: 20px;
+    font-size: xx-large;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.linkedin{
+    float: right;
+    width: 58px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+.instagram{
+    float: right;
+    width: 50px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+#documentary{
+    float: right;
+    width: 750px;
+    height: 421.875px;
+    margin-right: 40px;
+    margin-top: 16px;
+}
+
+#Gateway{
+    text-align: center;
+}
+
+.description{
+    background-color: cornflowerblue;
+    padding: 20px;
+    text-indent: 30px;
+    width: 100%;
+    margin-right: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.proposal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.proposal img{
+    width: 100%;
+    height: auto;
+}
+
+#propphoto{
+    background-color: rgb(7, 44, 114);
+    color: azure;
+}
+
+.production{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.production img{
+    width: 100%;
+    height: auto;
+}
+
+#contacthead{
+    text-align: center;
+}
+
+#instagram{
+    width: 200px;
+    height: auto;
+}
+
+#linkedin{
+    width:232px;
+    height: auto;
+}
+
+#socials{
+    float: right;
+}
+
+#socialhead{
+    font-size: 50px;
+    color: rgb(7, 44, 114);
+    background-color: cornflowerblue;
+    text-align: left;
+    padding: 25px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 60px;
+}
+
+#email{
+    font-size: 50px;
+    color: rgb(7, 44, 114);
+    background-color: cornflowerblue;
+    text-align: left;
+    padding: 25px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 60px;
+}
+
+#mailbut{
+    float: right;
+    background-color: darksalmon;
+    padding: 45px;
+    font-size: 100px;
+    margin-top: 75px;
+    margin-right: 50px;
+    border-radius: 35%;
+}
